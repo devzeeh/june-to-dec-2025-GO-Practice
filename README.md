@@ -169,7 +169,7 @@ Build a mini guestbook where visitors submit their names and see all entries.
 ---
 
 Date Started: <b>june 3, 2025</b> <br>
-Actual Date Completed: <b>December 31, 2025</b> <br>
+Actual Date Completed: <b></b> <br>
 Estimated Date Completed: Decemeber 31, 2025
 
 ---
