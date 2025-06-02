@@ -1,12 +1,12 @@
 # june-to-dec-2025-GO-Practice
 # Daily Beginner's Go Programming Guide (June – December 2025)
-
 ---
 
+Date Started: June 3, 2025
 ## June: Getting Started with Go
 
 ### Week 1: Setup & Hello World  
-- [ ] Day 1: Install Go, set up your editor (VSCode recommended)  
+- [x] Day 1: Install Go, set up your editor (VSCode recommended)  
 - [ ] Day 2: Write your first program: `Hello, Go!` and run it  
 - [ ] Day 3: Understand Go program structure: `package main`, `import`, `func main()`  
 - [ ] Day 4: Learn how to print to the console with `fmt.Println`  
