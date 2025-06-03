@@ -7,7 +7,7 @@ Date Started: June 3, 2025
 
 ### Week 1: Setup & Hello World  
 - [x] Day 1: Install Go, set up your editor (VSCode recommended)  
-- [ ] Day 2: Write your first program: `Hello, Go!` and run it  
+- [x] Day 2: Write your first program: `Hello, Go!` and run it  
 - [ ] Day 3: Understand Go program structure: `package main`, `import`, `func main()`  
 - [ ] Day 4: Learn how to print to the console with `fmt.Println`  
 - [ ] Day 5: Experiment with comments and basic syntax  
@@ -168,9 +168,11 @@ Build a mini guestbook where visitors submit their names and see all entries.
 
 ---
 
-Date Started: <b>june 3, 2025</b> <br>
+Date Started: <b>june 2, 2025</b> <br>
 Actual Date Completed: <b></b> <br>
 Estimated Date Completed: Decemeber 31, 2025
 
 ---
 
+references
+Day 2: [https://gosamples.dev/main-function-package-file/](https://gosamples.dev/main-function-package-file/)

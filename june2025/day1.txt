@@ -1,0 +1,3 @@
+Install Go, set up editor (VSCode recommended)  
+
+current version use: Go 1.24.3
