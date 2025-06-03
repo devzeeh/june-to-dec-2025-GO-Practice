@@ -175,4 +175,4 @@ Estimated Date Completed: Decemeber 31, 2025
 ---
 
 references
-Day 2: [https://gosamples.dev/main-function-package-file/](https://gosamples.dev/main-function-package-file/)
+Day 3: [https://gosamples.dev/main-function-package-file/](https://gosamples.dev/main-function-package-file/)
