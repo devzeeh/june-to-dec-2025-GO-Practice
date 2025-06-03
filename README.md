@@ -2,7 +2,7 @@
 # Daily Beginner's Go Programming Guide (June – December 2025)
 ---
 
-Date Started: June 3, 2025
+Date Started: June 2, 2025
 ## June: Getting Started with Go
 
 ### Week 1: Setup & Hello World  
