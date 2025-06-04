@@ -8,7 +8,7 @@ Date Started: June 3, 2025
 ### Week 1: Setup & Hello World  
 - [x] Day 1: Install Go, set up your editor (VSCode recommended)  
 - [x] Day 2: Write your first program: `Hello, Go!` and run it  
-- [ ] Day 3: Understand Go program structure: `package main`, `import`, `func main()`  
+- [x] Day 3: Understand Go program structure: `package main`, `import`, `func main()`  
 - [ ] Day 4: Learn how to print to the console with `fmt.Println`  
 - [ ] Day 5: Experiment with comments and basic syntax  
 
