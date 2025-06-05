@@ -15,6 +15,7 @@ Date Started: June 2, 2025
 ### Week 1 Side Project:  
 Build a simple CLI program that prints personalized greetings for different names.
 
+[https://github.com/devzeeh/june-to-dec-2025-GO-Practice/blob/main/weeklyProject/june/week1.go](week1.go)
 ---
 
 ### Week 2: Variables & Basic Types  
@@ -27,7 +28,6 @@ Build a simple CLI program that prints personalized greetings for different name
 ### Week 2 Side Project:  
 Create a program that converts temperatures between Celsius, Fahrenheit, and Kelvin.
 
-[https://github.com/devzeeh/june-to-dec-2025-GO-Practice/blob/main/weeklyProject/june/week1.go](week1.go)
 ---
 
 ### Week 3: Control Flow  
