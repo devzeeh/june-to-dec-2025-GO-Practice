@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"strconv"
 	"time"
-	//
 )
 
 var name = []string{
@@ -30,7 +29,7 @@ func main() {
 	fmt.Println("Welcome to Go programming Language!")                                       // FormatInt converts int to string
 	fmt.Println("Week: " + strconv.FormatInt(int64(week), 10) + ", using 'strconv' pacakge") // Get the current day of the month and convert to base 10
 	fmt.Printf("week: %d, using 'fmt' package \n", week)                                     // Print the week number using fmt package
-	fmt.Println("Name: " + "Hello", name[0] + ", " + "Hello", name[1] + ", " + "Hello", name[2])                                                               // Print the names from the slice
+	fmt.Println("Name: "+"Hello", name[0]+", "+"Hello", name[1]+", "+"Hello", name[2])       // Print the names from the slice
 	// Call the day function to get the current day, date, and time
 	day, date, timeStr := day()
 	fmt.Printf("Day: %d, Date: %s, Time: %s", day, date, timeStr)
