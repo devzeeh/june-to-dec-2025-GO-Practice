@@ -15,4 +15,5 @@ func main() {
 	// This is the main function for week 2 of June 2025
 	fmt.Println("Result for june week 2 day1: ", week2.Day1())
 	fmt.Println("Result for june week 2 day2: ", week2.Day2())
+	fmt.Println("Result for june week 2 day2: ", week2.Day3toDay5())
 }

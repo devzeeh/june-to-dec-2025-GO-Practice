@@ -20,9 +20,9 @@ Build a simple CLI program that prints personalized greetings for different name
 ### Week 2: Variables & Basic Types  
 - [x] Day 1: Learn about variables (`var`), declaration, and initialization  
 - [x] Day 2: Explore basic data types: `int`, `float64`, `string`, `bool`  
-- [ ] Day 3: Use constants and learn their importance  
-- [ ] Day 4: Practice printing variables and constants  
-- [ ] Day 5: Write simple programs combining different variable types  
+- [x] Day 3: Use constants and learn their importance  
+- [x] Day 4: Practice printing variables and constants  
+- [x] Day 5: Write simple programs combining different variable types  
 
 ### Week 2 Side Project:  
 Create a program that converts temperatures between Celsius, Fahrenheit, and Kelvin.
