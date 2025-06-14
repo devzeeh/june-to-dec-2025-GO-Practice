@@ -1,4 +1,4 @@
-package main
+package june
 
 import (
 	"fmt"
@@ -25,12 +25,25 @@ func day() (int, string, string) {
 	return day, date, timeStr
 }
 
-func main() {
-	fmt.Println("Welcome to Go programming Language!")                                       // FormatInt converts int to string
-	fmt.Println("Week: " + strconv.FormatInt(int64(week), 10) + ", using 'strconv' pacakge") // Get the current day of the month and convert to base 10
-	fmt.Printf("week: %d, using 'fmt' package \n", week)                                     // Print the week number using fmt package
-	fmt.Println("Name: "+"Hello", name[0]+", "+"Hello", name[1]+", "+"Hello", name[2])       // Print the names from the slice
+func week1() string {
+	var result string
+	
+	result += "Welcome to Go programming Language!\n"
+	result += "Week: " + strconv.FormatInt(int64(week), 10) + ", using 'strconv' pacakge\n"
+	result += fmt.Sprintf("week: %d, using 'fmt' package \n", week)
+	result += fmt.Sprintf("Name: Hello %s, Hello %s, Hello %s\n", name[0], name[1], name[2])
+	
 	// Call the day function to get the current day, date, and time
 	day, date, timeStr := day()
-	fmt.Printf("Day: %d, Date: %s, Time: %s", day, date, timeStr)
+	result += fmt.Sprintf("Day: %d, Date: %s, Time: %s", day, date, timeStr)
+	
+	return result
+}
+
+func Week1Result() string {
+	// Call the Week1 function to get the week number and names
+	return week1()
+	
+	// Format the result string
+	//return fmt.Sprintf("Weeksdfghjk %d Result: %s", week, result)
 }
