@@ -20,9 +20,9 @@ Build a simple CLI program that prints personalized greetings for different name
 ### Week 2: Variables & Basic Types  
 - [x] Day 1: Learn about variables (`var`), declaration, and initialization  
 - [x] Day 2: Explore basic data types: `int`, `float64`, `string`, `bool`  
-- [ ] Day 3: Use constants and learn their importance  
-- [ ] Day 4: Practice printing variables and constants  
-- [ ] Day 5: Write simple programs combining different variable types  
+- [x] Day 3: Use constants and learn their importance  
+- [x] Day 4: Practice printing variables and constants  
+- [x] Day 5: Write simple programs combining different variable types  
 
 ### Week 2 Side Project:  
 Create a program that converts temperatures between Celsius, Fahrenheit, and Kelvin.
@@ -30,10 +30,10 @@ Create a program that converts temperatures between Celsius, Fahrenheit, and Kel
 ---
 
 ### Week 3: Control Flow  
-- [ ] Day 1: Learn if-else statements  
+- [x] Day 1: Learn if-else statements  
 - [ ] Day 2: Learn switch statements  
 - [ ] Day 3: Understand for-loops and loop control (break/continue)  
-- [ ] Day 4: Write a program to check if a number is even or odd  
+- [x] Day 4: Write a program to check if a number is even or odd  
 - [ ] Day 5: Write a program to print the first 10 Fibonacci numbers  
 
 ### Week 3 Side Project:  
