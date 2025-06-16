@@ -6,11 +6,11 @@ Date Started: June 2, 2025
 ## June: Getting Started with Go
 
 ### Week 1: Setup & Hello World  
-- [x]  Install Go, set up your editor (VSCode recommended)  
-- [x]  Write your first program: `Hello, Go!` and run it  
-- [x]  Understand Go program structure: `package main`, `import`, `func main()`  
-- [x]  Learn how to print to the console with `fmt.Println`  
-- [x]  Experiment with comments and basic syntax  
+- [x] Day 1: Install Go, set up your editor (VSCode recommended)  
+- [x] Day 2: Write your first program: `Hello, Go!` and run it  
+- [x] Day 3: Understand Go program structure: `package main`, `import`, `func main()`  
+- [x] Day 4: Learn how to print to the console with `fmt.Println`  
+- [x] Day 5: Experiment with comments and basic syntax  
 
 ### Week 1 Side Project:  
 Build a simple CLI program that prints personalized greetings for different names.
@@ -18,11 +18,11 @@ Build a simple CLI program that prints personalized greetings for different name
 ---
 
 ### Week 2: Variables & Basic Types  
-- [x]  Learn about variables (`var`), declaration, and initialization  
-- [x]  Explore basic data types: `int`, `float64`, `string`, `bool`  
-- [x]  Use constants and learn their importance  
-- [x]  Practice printing variables and constants  
-- [x]  Write simple programs combining different variable types  
+- [x] Day 1: Learn about variables (`var`), declaration, and initialization  
+- [x] Day 2: Explore basic data types: `int`, `float64`, `string`, `bool`  
+- [x] Day 3: Use constants and learn their importance  
+- [x] Day 4: Practice printing variables and constants  
+- [x] Day 5: Write simple programs combining different variable types  
 
 ### Week 2 Side Project:  
 Create a program that converts temperatures between Celsius, Fahrenheit, and Kelvin.
@@ -30,11 +30,11 @@ Create a program that converts temperatures between Celsius, Fahrenheit, and Kel
 ---
 
 ### Week 3: Control Flow  
-- [ ] Learn if-else statements  
-- [ ] Learn switch statements  
-- [ ] Understand for-loops and loop control (break/continue)  
-- [ ] Write a program to check if a number is even or odd  
-- [ ] Write a program to print the first 10 Fibonacci numbers  
+- [x] Day 1: Learn if-else statements  
+- [ ] Day 2: Learn switch statements  
+- [ ] Day 3: Understand for-loops and loop control (break/continue)  
+- [x] Day 4: Write a program to check if a number is even or odd  
+- [ ] Day 5: Write a program to print the first 10 Fibonacci numbers  
 
 ### Week 3 Side Project:  
 Write a number guessing game that gives hints if the guess is too high or low.
@@ -42,11 +42,11 @@ Write a number guessing game that gives hints if the guess is too high or low.
 ---
 
 ### Week 4: Functions  
-- [ ]  Understand function declaration and calling functions  
-- [ ]  Learn about parameters and return values  
-- [ ]  Practice writing functions with multiple parameters  
-- [ ]  Learn about multiple return values  
-- [ ]  Write a function that calculates factorial recursively  
+- [ ] Day 1: Understand function declaration and calling functions  
+- [ ] Day 2: Learn about parameters and return values  
+- [ ] Day 3: Practice writing functions with multiple parameters  
+- [ ] Day 4: Learn about multiple return values  
+- [ ] Day 5: Write a function that calculates factorial recursively  
 
 ### Week 4 Side Project:  
 Build a calculator CLI app that supports add, subtract, multiply, and divide operations.
@@ -56,11 +56,11 @@ Build a calculator CLI app that supports add, subtract, multiply, and divide ope
 ## July: Core Concepts
 
 ### Week 1: Arrays and Slices  
-- [ ]  Understand arrays and how to declare them  
-- [ ]  Learn about slices and how they differ from arrays  
-- [ ]  Practice appending elements to slices  
-- [ ]  Loop through slices using `for` and `range`  
-- [ ]  Write a program to find the max and min in a slice  
+- [ ] Day 1: Understand arrays and how to declare them  
+- [ ] Day 2: Learn about slices and how they differ from arrays  
+- [ ] Day 3: Practice appending elements to slices  
+- [ ] Day 4: Loop through slices using `for` and `range`  
+- [ ] Day 5: Write a program to find the max and min in a slice  
 
 ### Week 1 Side Project:  
 Create a program that manages a list of favorite movies with options to add and display.
@@ -68,11 +68,11 @@ Create a program that manages a list of favorite movies with options to add and 
 ---
 
 ### Week 2: Maps (Dictionaries)  
-- [ ]  Learn what maps are and how to declare them  
-- [ ]  Add, update, and delete entries in maps  
-- [ ]  Loop over maps with `range`  
-- [ ]  Check if a key exists in a map  
-- [ ]  Write a program that stores and prints a phone book  
+- [ ] Day 1: Learn what maps are and how to declare them  
+- [ ] Day 2: Add, update, and delete entries in maps  
+- [ ] Day 3: Loop over maps with `range`  
+- [ ] Day 4: Check if a key exists in a map  
+- [ ] Day 5: Write a program that stores and prints a phone book  
 
 ### Week 2 Side Project:  
 Build a simple inventory tracker using maps for items and quantities.
@@ -80,11 +80,11 @@ Build a simple inventory tracker using maps for items and quantities.
 ---
 
 ### Week 3: Structs (Basic Data Structures)  
-- [ ]  Understand structs and how to declare them  
-- [ ]  Initialize and use struct instances  
-- [ ]  Learn about struct fields and methods  
-- [ ]  Practice nested structs  
-- [ ]  Write a program to create and display a `Person` struct  
+- [ ] Day 1: Understand structs and how to declare them  
+- [ ] Day 2: Initialize and use struct instances  
+- [ ] Day 3: Learn about struct fields and methods  
+- [ ] Day 4: Practice nested structs  
+- [ ] Day 5: Write a program to create and display a `Person` struct  
 
 ### Week 3 Side Project:  
 Build a Contact Manager storing name, phone, and email using structs and maps.
@@ -92,11 +92,11 @@ Build a Contact Manager storing name, phone, and email using structs and maps.
 ---
 
 ### Week 4: Error Handling  
-- [ ]  Learn the `error` type and how to return errors  
-- [ ]  Use `errors.New` to create errors  
-- [ ]  Handle errors returned by functions  
-- [ ]  Understand `panic` and `recover` basics  
-- [ ]  Write a function that validates input and returns an error if invalid  
+- [ ] Day 1: Learn the `error` type and how to return errors  
+- [ ] Day 2: Use `errors.New` to create errors  
+- [ ] Day 3: Handle errors returned by functions  
+- [ ] Day 4: Understand `panic` and `recover` basics  
+- [ ] Day 5: Write a function that validates input and returns an error if invalid  
 
 ### Week 4 Side Project:  
 Create a program that reads integers from user input and returns an error for invalid input.
@@ -106,11 +106,11 @@ Create a program that reads integers from user input and returns an error for in
 ## August: Simple Go Tools
 
 ### Week 1: Basic Concurrency  
-- [ ]  Introduction to goroutines  
-- [ ]  Use `go` keyword to run functions concurrently  
-- [ ]  Learn about synchronization with `sync.WaitGroup`  
-- [ ]  Understand channels basics  
-- [ ]  Write a program that runs two tasks concurrently and waits for both  
+- [ ] Day 1: Introduction to goroutines  
+- [ ] Day 2: Use `go` keyword to run functions concurrently  
+- [ ] Day 3: Learn about synchronization with `sync.WaitGroup`  
+- [ ] Day 4: Understand channels basics  
+- [ ] Day 5: Write a program that runs two tasks concurrently and waits for both  
 
 ### Week 1 Side Project:  
 Build a simple concurrent downloader that simulates fetching multiple URLs.
@@ -118,11 +118,11 @@ Build a simple concurrent downloader that simulates fetching multiple URLs.
 ---
 
 ### Week 2: Reading and Writing Files  
-- [ ]  Learn to open and read files using `os` and `io/ioutil`  
-- [ ]  Write data to files  
-- [ ]  Practice appending data to existing files  
-- [ ]  Handle file errors  
-- [ ]  Write a program to copy a file  
+- [ ] Day 1: Learn to open and read files using `os` and `io/ioutil`  
+- [ ] Day 2: Write data to files  
+- [ ] Day 3: Practice appending data to existing files  
+- [ ] Day 4: Handle file errors  
+- [ ] Day 5: Write a program to copy a file  
 
 ### Week 2 Side Project:  
 Create a program that reads a list of names from a file and prints them sorted.
@@ -130,11 +130,11 @@ Create a program that reads a list of names from a file and prints them sorted.
 ---
 
 ### Week 3: Beginner Web Server  
-- [ ]  Learn basics of `net/http` package  
-- [ ]  Write a simple web server that returns "Hello, Go Web!"  
-- [ ]  Handle different URL paths  
-- [ ]  Serve static HTML content  
-- [ ]  Add query parameters and parse them  
+- [ ] Day 1: Learn basics of `net/http` package  
+- [ ] Day 2: Write a simple web server that returns "Hello, Go Web!"  
+- [ ] Day 3: Handle different URL paths  
+- [ ] Day 4: Serve static HTML content  
+- [ ] Day 5: Add query parameters and parse them  
 
 ### Week 3 Side Project:  
 Build a mini guestbook where visitors submit their names and see all entries.
@@ -175,4 +175,4 @@ Estimated Date Completed: Decemeber 31, 2025
 ---
 
 references
- [https://gosamples.dev/main-function-package-file/](https://gosamples.dev/main-function-package-file/)
+Day 3: [https://gosamples.dev/main-function-package-file/](https://gosamples.dev/main-function-package-file/)
