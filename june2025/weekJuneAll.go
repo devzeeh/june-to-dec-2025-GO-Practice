@@ -29,6 +29,6 @@ func main() {
 	time.Sleep(3000 * time.Millisecond) // Sleep for 3 seconds to simulate a delay
 	fmt.Println("For week 2 of july")
 	time.Sleep(2000) 
-	fmt.Println("\n Result for june week 2 day1: ", week3.Week3Result())
-	
+	fmt.Println("\nResult for june week 2 day1: ", week3.Week3Result())
+	fmt.Println("Result for Switch Statement: ", week3.Switch())
 }
