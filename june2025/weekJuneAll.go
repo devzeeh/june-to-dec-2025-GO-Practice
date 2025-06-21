@@ -31,4 +31,5 @@ func main() {
 	time.Sleep(2000) 
 	fmt.Println("\nResult for june week 2 day1: ", week3.Week3Result())
 	fmt.Println("Result for Switch Statement: ", week3.Switch())
+	fmt.Println("Result for For Loops: ", week3.ForLoops())
 }
