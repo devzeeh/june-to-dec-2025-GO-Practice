@@ -1,26 +1,48 @@
 package june
 
-import "fmt"
+import (
+	"bufio" // Importing bufio for buffered I/O operations
+	"fmt"
+	"math/rand" // Importing math/rand for random number generation
+	"os"        // Importing os for standard input/output operations
+	"strconv"
+	"strings"
+	"time" // Importing time for seeding the random number generator and handling time-related functions
+)
 
-// Function to generate the first 10 Fibonacci numbers
-func PrintFibonacci() string {
-	// Check if n is less than or equal to 0
-	a, b := 0, 1 // Initialize the first two Fibonacci numbers
-	n := 10      // Number of Fibonacci numbers to generate
-	result := ""
-	// for loop to generate Fibonacci numbers
-	for i := 0; i < n; i++ {
-		result += fmt.Sprintf("%d", a)
-		if i < n-1 {
-			result += " "
+// NumberGuessingGame implements a simple number guessing game where the user has to guess a randomly generated number between 1 and 100.
+func NumberGuessingGame() {
+	rand.Seed(time.Now().UnixNano())    // Seed the random number generator with the current time
+	target := rand.Intn(100) + 1        // Generate a random number between 1 and 100
+	reader := bufio.NewReader(os.Stdin) // Create a new buffered reader to read input from standard input
+
+	fmt.Println("Guess the number between 1 and 100!")
+
+	// Loop until the user guesses the correct number
+	for {
+		fmt.Print("Enter your guess: ")
+		input, _ := reader.ReadString('\n')
+		input = strings.TrimSpace(input)
+		guess, err := strconv.Atoi(input)
+		if err != nil {
+			fmt.Println("Please enter a valid number.")
+			continue
 		}
-		a, b = b, a+b
+
+		if guess < target {
+			fmt.Println("Too low!")
+		} else if guess > target {
+			fmt.Println("Too high!")
+		} else {
+			fmt.Println("Congratulations! You guessed the number!")
+			break
+		}
 	}
-	return result
 }
 
-// Called by the main function to get the result for week 3
-// This function returns the first 10 Fibonacci numbers as a string
-func Week3Result() string {
-	return PrintFibonacci()
+func Week3Result() string{
+	fmt.Println("Welcome to the Number Guessing Game!")
+	NumberGuessingGame()
+	fmt.Println("Thanks for playing!")
+	return "Game finished"
 }
