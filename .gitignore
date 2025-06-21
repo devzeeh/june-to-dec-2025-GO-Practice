@@ -1,2 +1,3 @@
-#ignore .env file
+# Ignore environment variable files
 undefined.env
+.env
