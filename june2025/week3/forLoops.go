@@ -5,14 +5,11 @@ import (
 	_ "fmt"
 )
 
-
 func ForLoops() string {
-	var result string
-	var count int
-	for i := 1; i < 5; i++ {
-		result += fmt.Sprintf("For Loop %d\n", i)
-		count++
+	n := 10           // Number of iterations
+	var result string // Initialize an empty string to store the result
+	for i := 1; i <= n; i++ {
+		result += fmt.Sprintf("%d ", i)
 	}
-	result += fmt.Sprintf("Total iterations: %d\n", count)
 	return result
 }
