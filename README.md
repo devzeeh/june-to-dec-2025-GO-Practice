@@ -42,7 +42,7 @@ Write a number guessing game that gives hints if the guess is too high or low.
 ---
 
 ### Week 4: Functions  
-- [ ] Day 1: Understand function declaration and calling functions  
+- [x] Day 1: Understand function declaration and calling functions  
 - [ ] Day 2: Learn about parameters and return values  
 - [ ] Day 3: Practice writing functions with multiple parameters  
 - [ ] Day 4: Learn about multiple return values  
