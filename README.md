@@ -34,7 +34,7 @@ Create a program that converts temperatures between Celsius, Fahrenheit, and Kel
 - [x] Day 2: Learn switch statements  
 - [x] Day 3: Understand for-loops and loop control (break/continue)  
 - [x] Day 4: Write a program to check if a number is even or odd  
-- [ ] Day 5: Write a program to print the first 10 Fibonacci numbers  
+- [x] Day 5: Write a program to print the first 10 Fibonacci numbers  
 
 ### Week 3 Side Project:  
 Write a number guessing game that gives hints if the guess is too high or low.
