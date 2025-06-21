@@ -32,7 +32,7 @@ Create a program that converts temperatures between Celsius, Fahrenheit, and Kel
 ### Week 3: Control Flow  
 - [x] Day 1: Learn if-else statements  
 - [x] Day 2: Learn switch statements  
-- [ ] Day 3: Understand for-loops and loop control (break/continue)  
+- [x] Day 3: Understand for-loops and loop control (break/continue)  
 - [x] Day 4: Write a program to check if a number is even or odd  
 - [ ] Day 5: Write a program to print the first 10 Fibonacci numbers  
 
