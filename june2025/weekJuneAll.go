@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"time"
-
 	// Importing the June package to access its functions "moduleName/folderPath/packageName"
 	"GoPractice/june2025/week2"
 	"GoPractice/june2025/week3"
@@ -39,4 +38,5 @@ func main() {
 	fmt.Println("\nFor week 4 of June")
 	time.Sleep(2000) 
 	fmt.Println(("Result for Multiple Param & Return Values: "), week4.ParamReturnValues(5, 12.689))
+	fmt.Println("Result for Multiple Return Values:", week4.Multiple("Clancy"))
 }
