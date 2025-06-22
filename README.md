@@ -43,8 +43,8 @@ Write a number guessing game that gives hints if the guess is too high or low.
 
 ### Week 4: Functions  
 - [x] Day 1: Understand function declaration and calling functions  
-- [ ] Day 2: Learn about parameters and return values  
-- [ ] Day 3: Practice writing functions with multiple parameters  
+- [x] Day 2: Learn about parameters and return values  
+- [x] Day 3: Practice writing functions with multiple parameters  
 - [ ] Day 4: Learn about multiple return values  
 - [ ] Day 5: Write a function that calculates factorial recursively  
 
