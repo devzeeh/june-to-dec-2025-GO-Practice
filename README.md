@@ -56,7 +56,7 @@ Build a calculator CLI app that supports add, subtract, multiply, and divide ope
 ## July: Core Concepts
 
 ### Week 1: Arrays and Slices  
-- [x] Day 1: Understand arrays and how to declare them  
+- [x] Day 1: Understand arrays and how to declare them 
 - [ ] Day 2: Learn about slices and how they differ from arrays  
 - [ ] Day 3: Practice appending elements to slices  
 - [ ] Day 4: Loop through slices using `for` and `range`  
