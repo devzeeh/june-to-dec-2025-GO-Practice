@@ -4,12 +4,12 @@ import (
 	_ "fmt"
 )
 
-func array(number int) string {
+func array() []string {
 	array := [5]string{"Freya", "Athena", "Angel", "Mika", "Kazumi"} 
-	result := array[number]
+	result := array[:5]
 	return result
 }
 
-func Array(number int) string{
-	return array(number)
+func Array() []string{
+	return array()
 }
