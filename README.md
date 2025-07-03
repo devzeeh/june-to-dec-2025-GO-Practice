@@ -58,7 +58,7 @@ Build a calculator CLI app that supports add, subtract, multiply, and divide ope
 ### Week 1: Arrays and Slices  
 - [x] Day 1: Understand arrays and how to declare them 
 - [x] Day 2: Learn about slices and how they differ from arrays  
-- [ ] Day 3: Practice appending elements to slices  
+- [x] Day 3: Practice appending elements to slices  
 - [ ] Day 4: Loop through slices using `for` and `range`  
 - [ ] Day 5: Write a program to find the max and min in a slice  
 
