@@ -26,5 +26,6 @@ func main() {
 	fmt.Println("Result for maps: -- Add 'Color' key, Update 'Year:Value', Delete 'Color' key\n",original,add,update,deletes)
 	fruit, res := week2.LoopOverMap()
 	fmt.Println("Result for loop over maps:",res,fruit,res)
+	fmt.Println("Result for check key: ", week2.KeyCheck())
 
 }
