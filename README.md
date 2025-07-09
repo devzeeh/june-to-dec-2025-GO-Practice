@@ -70,8 +70,8 @@ Create a program that manages a list of favorite movies with options to add and 
 ### Week 2: Maps (Dictionaries)  
 - [x] Day 1: Learn what maps are and how to declare them  
 - [x] Day 2: Add, update, and delete entries in maps  
-- [ ] Day 3: Loop over maps with `range`  
-- [ ] Day 4: Check if a key exists in a map  
+- [x] Day 3: Loop over maps with `range`  
+- [x] Day 4: Check if a key exists in a map  
 - [ ] Day 5: Write a program that stores and prints a phone book  
 
 ### Week 2 Side Project:  
