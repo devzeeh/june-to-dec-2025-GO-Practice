@@ -72,7 +72,7 @@ Create a program that manages a list of favorite movies with options to add and 
 - [x] Day 2: Add, update, and delete entries in maps  
 - [x] Day 3: Loop over maps with `range`  
 - [x] Day 4: Check if a key exists in a map  
-- [ ] Day 5: Write a program that stores and prints a phone book  
+- [x] Day 5: Write a program that stores and prints a phone book  
 
 ### Week 2 Side Project:  
 Build a simple inventory tracker using maps for items and quantities.
