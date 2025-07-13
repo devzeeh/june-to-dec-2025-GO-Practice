@@ -1,4 +1,5 @@
 package july
+
 import (
 	"fmt"
 	"strconv"
@@ -17,7 +18,7 @@ func Inventory() (string, string, string, string, string, string, string) {
 	var total1 int
 	for _, qty1 := range inventory {
 		num1, _ := strconv.Atoi(qty1)
-		
+
 		/*if err1 != nil {
 			fmt.Sprintln("Errors", qty1)
 			continue
@@ -49,7 +50,6 @@ func Inventory() (string, string, string, string, string, string, string) {
 	}
 
 	totalQty += fmt.Sprintln("Total quantity:", total)
-
 
 	return a, initialInventory, initial, addInv, addStock, updateStock, totalQty
 }
