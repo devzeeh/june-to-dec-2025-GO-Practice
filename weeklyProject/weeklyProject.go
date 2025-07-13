@@ -23,4 +23,7 @@ func main() {
 	// For the month of July
 	fmt.Println("\n Weekly project for month of July")
 	july.Week1Result1()
+	a, initialInventory, initial, addInv, addStock, updateStock, totalQty := july.Inventory()
+	fmt.Println(a, initialInventory, initial, addInv, addStock, updateStock, totalQty)
+	
 }
