@@ -6,7 +6,9 @@ import (
 
 	"GoPractice/july2025/week1"
 	"GoPractice/july2025/week2"
+	"GoPractice/july2025/week3"
 )
+
 func init() {
 	fmt.Println("Welcome to July Go Practice")
 }
@@ -22,12 +24,17 @@ func main() {
 
 	time.Sleep(3000 * time.Millisecond)
 	fmt.Println("\nFor Week 2 of July")
-	original, add, update, deletes:= week2.AddUpdateDelMaps()
-	fmt.Println("Result for maps: -- Add 'Color' key, Update 'Year:Value', Delete 'Color' key\n",original,add,update,deletes)
+	original, add, update, deletes := week2.AddUpdateDelMaps()
+	fmt.Println("Result for maps: -- Add 'Color' key, Update 'Year:Value', Delete 'Color' key\n", original, add, update, deletes)
 	fruit, res := week2.LoopOverMap()
-	fmt.Println("Result for loop over maps:",res,fruit,res)
+	fmt.Println("Result for loop over maps:", res, fruit, res)
 	fmt.Println("Result for check key: ", week2.KeyCheck())
 	originalPhonebook, add, exist, newPhonebook := week2.Maphonebook()
 	fmt.Println("Result for map phonebook: ", originalPhonebook, add, exist, newPhonebook)
+
+	time.Sleep(3000 * time.Millisecond)
+	fmt.Println("\nFor week 3 of july")
+	structure := week3.StructInit()
+	fmt.Println("Result for Struct:", structure)
 
 }
