@@ -38,5 +38,6 @@ func main() {
 	fmt.Println("Result for Struct:", structure)
 	laptopStorage, laptopRam, laptopCpuManu := week3.StructFieldMethod()
 	fmt.Print("Result for Struct: ", laptopStorage, laptopRam, laptopCpuManu)
-
+	nested := week3.NestedStruct()
+	fmt.Print("\nResult for Nested Struct: ", nested)
 }
