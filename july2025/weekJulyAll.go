@@ -36,5 +36,7 @@ func main() {
 	fmt.Println("\nFor week 3 of july")
 	structure := week3.StructInit()
 	fmt.Println("Result for Struct:", structure)
+	laptopStorage, laptopRam, laptopCpuManu := week3.StructFieldMethod()
+	fmt.Print("Result for Struct: ", laptopStorage, laptopRam, laptopCpuManu)
 
 }
