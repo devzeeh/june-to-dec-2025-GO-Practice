@@ -25,5 +25,6 @@ func main() {
 	july.Week1Result1()
 	a, initialInventory, initial, addInv, addStock, updateStock, totalQty := july.Inventory()
 	fmt.Println(a, initialInventory, initial, addInv, addStock, updateStock, totalQty)
+	fmt.Println("Result for Week3 Struct", july.Week3Result())
 	
 }
