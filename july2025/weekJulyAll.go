@@ -40,4 +40,7 @@ func main() {
 	fmt.Print("Result for Struct: ", laptopStorage, laptopRam, laptopCpuManu)
 	nested := week3.NestedStruct()
 	fmt.Print("\nResult for Nested Struct: ", nested)
+	allStruct, oldSalary, updatedSalary := week3.StructPerson()
+	fmt.Print("\nResult for Last Struct: ", allStruct, oldSalary, updatedSalary)
+
 }
