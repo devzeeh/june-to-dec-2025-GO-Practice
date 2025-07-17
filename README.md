@@ -100,7 +100,7 @@ Build a simple inventory tracker using maps for items and quantities.
 - [x] Day 2: Initialize and use struct instances
 - [x] Day 3: Learn about struct fields and methods
 - [x] Day 4: Practice nested structs
-- [ ] Day 5: Write a program to create and display a `Person` struct
+- [x] Day 5: Write a program to create and display a `Person` struct
 
 ### Week 3 Side Project:
 
