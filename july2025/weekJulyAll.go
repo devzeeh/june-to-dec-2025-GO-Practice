@@ -7,6 +7,7 @@ import (
 	"GoPractice/july2025/week1"
 	"GoPractice/july2025/week2"
 	"GoPractice/july2025/week3"
+	"GoPractice/july2025/week4"
 )
 
 func init() {
@@ -42,5 +43,10 @@ func main() {
 	fmt.Print("\nResult for Nested Struct: ", nested)
 	allStruct, oldSalary, updatedSalary := week3.StructPerson()
 	fmt.Print("\nResult for Last Struct: ", allStruct, oldSalary, updatedSalary)
+
+	time.Sleep(3000 * time.Millisecond)
+	fmt.Println("\nFor week 4 of july")
+	ResultMes, ErrorMes := week4.Error()
+	fmt.Print("\nResult for Error: ", ResultMes, ErrorMes)
 
 }
