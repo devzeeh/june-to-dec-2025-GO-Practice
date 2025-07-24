@@ -50,5 +50,6 @@ func main() {
 	fmt.Print("Result for Error: ", ResultMes, ErrorMes)
 	functionError := week4.FunctionError()
 	fmt.Print("Result for Function Error: ", functionError)
-
+	fmt.Println("Result for Panic Recover: ")
+	week4.PanicRecover()
 }
