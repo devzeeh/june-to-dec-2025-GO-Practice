@@ -47,6 +47,8 @@ func main() {
 	time.Sleep(3000 * time.Millisecond)
 	fmt.Println("\nFor week 4 of july")
 	ResultMes, ErrorMes := week4.Error()
-	fmt.Print("\nResult for Error: ", ResultMes, ErrorMes)
+	fmt.Print("Result for Error: ", ResultMes, ErrorMes)
+	functionError := week4.FunctionError()
+	fmt.Print("Result for Function Error: ", functionError)
 
 }
