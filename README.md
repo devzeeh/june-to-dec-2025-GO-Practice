@@ -113,7 +113,7 @@ Build a Contact Manager storing name, phone, and email using structs and maps.
 - [x] Day 1: Learn the `error` type and how to return errors
 - [x] Day 2: Use `errors.New` to create errors
 - [x] Day 3: Handle errors returned by functions
-- [ ] Day 4: Understand `panic` and `recover` basics
+- [x] Day 4: Understand `panic` and `recover` basics
 - [ ] Day 5: Write a function that validates input and returns an error if invalid
 
 ### Week 4 Side Project:
