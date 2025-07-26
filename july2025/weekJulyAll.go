@@ -52,4 +52,6 @@ func main() {
 	fmt.Print("Result for Function Error: ", functionError)
 	fmt.Println("Result for Panic Recover: ")
 	week4.PanicRecover()
+	validError, resTurn := week4.ValidateError()
+	fmt.Print("Result for validate error: ", resTurn, validError)
 }
