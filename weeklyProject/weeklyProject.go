@@ -27,5 +27,5 @@ func main() {
 	fmt.Println(a, initialInventory, initial, addInv, addStock, updateStock, totalQty)
 	fmt.Println("Result for Week3 Struct", july.Week3Result())
 	fmt.Println("Result for Week3 Struct", july.Week4Result())
-	
+
 }

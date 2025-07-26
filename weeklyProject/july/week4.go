@@ -1,12 +1,11 @@
 package july
 
 import (
-	_ "errors"
 	"fmt"
 	"strconv"
 )
 
-func Week4Result() string{
+func Week4Result() string {
 	var input string
 	fmt.Print("int: ")
 	fmt.Scan(&input) // Read input from the user (input will be stored as a string)
@@ -21,6 +20,5 @@ func Week4Result() string{
 	}
 	// If conversion is successful, print the valid integer
 	fmt.Println("Valid", number)
-
 	return ""
 }
