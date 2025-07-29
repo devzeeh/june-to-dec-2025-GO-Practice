@@ -126,8 +126,8 @@ Create a program that reads integers from user input and returns an error for in
 
 ### Week 1: Basic Concurrency
 
-- [ ] Day 1: Introduction to goroutines
-- [ ] Day 2: Use `go` keyword to run functions concurrently
+- [x] Day 1: Introduction to goroutines
+- [x] Day 2: Use `go` keyword to run functions concurrently
 - [ ] Day 3: Learn about synchronization with `sync.WaitGroup`
 - [ ] Day 4: Understand channels basics
 - [ ] Day 5: Write a program that runs two tasks concurrently and waits for both
