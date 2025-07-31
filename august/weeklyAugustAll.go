@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 
-
 	"GoPractice/august/week1"
 )
 
@@ -13,7 +12,10 @@ func init() {
 
 func main() {
 	fmt.Println("\nFor Week 1 of August")
+	fmt.Print("Result of Goroutine execution:")
 	week1.Goroutine() // Call the Goroutine function from week1 package
+	fmt.Print("\nResult of WaitGroup execution:")
+	week1.SyncWg() // Call the SyncWg function from week1 package
 
 	//fmt.Println("\nFor Week 2 of August")
 	// Add calls for week2 functions here when implemented
