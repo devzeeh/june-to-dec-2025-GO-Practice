@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	// Importing the week2 package to access its functions "moduleName/folderPath/packageName"
+	"GoPractice/weeklyProject/august"
 	"GoPractice/weeklyProject/july"
 	"GoPractice/weeklyProject/june"
 )
@@ -27,5 +28,10 @@ func main() {
 	fmt.Println(a, initialInventory, initial, addInv, addStock, updateStock, totalQty)
 	fmt.Println("Result for Week3 Struct", july.Week3Result())
 	fmt.Println("Result for Week3 Struct", july.Week4Result())
+
+	// For the month of August
+	fmt.Println("\n Weekly project for month of August")
+	fmt.Println("Result for August Week 1:")
+	august.AugustWeek1Result()
 
 }
