@@ -130,7 +130,7 @@ Create a program that reads integers from user input and returns an error for in
 - [x] Day 2: Use `go` keyword to run functions concurrently
 - [x] Day 3: Learn about synchronization with `sync.WaitGroup`
 - [x] Day 4: Understand channels basics
-- [ ] Day 5: Write a program that runs two tasks concurrently and waits for both
+- [x] Day 5: Write a program that runs two tasks concurrently and waits for both
 
 ### Week 1 Side Project:
 
