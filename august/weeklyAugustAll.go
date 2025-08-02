@@ -15,9 +15,11 @@ func main() {
 	fmt.Print("Result of Goroutine execution:")
 	week1.Goroutine() // Call the Goroutine function from week1 package
 	fmt.Print("\nResult of WaitGroup execution:")
-	week1.SyncWg() // Call the SyncWg function from week1 package
+	week1.SyncWg()
 	fmt.Print("\nResult of Channel execution:")
-	week1.Channel() // Call the Channel function from week1 package
+	week1.Channel()
+	fmt.Println("\nResult of Two Task Concurrent: ")
+	week1.TaskConcurrent()
 
 	//fmt.Println("\nFor Week 2 of August")
 	// Add calls for week2 functions here when implemented
