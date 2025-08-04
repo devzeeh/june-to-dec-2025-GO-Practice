@@ -140,8 +140,8 @@ Build a simple concurrent downloader that simulates fetching multiple URLs.
 
 ### Week 2: Reading and Writing Files
 
-- [ ] Day 1: Learn to open and read files using `os` and `io/ioutil`
-- [ ] Day 2: Write data to files
+- [x] Day 1: Learn to open and read files using `os` and `io/ioutil` 'the `io/ioutil` is deprecated use `io` or `os`.
+- [x] Day 2: Write data to files
 - [ ] Day 3: Practice appending data to existing files
 - [ ] Day 4: Handle file errors
 - [ ] Day 5: Write a program to copy a file
