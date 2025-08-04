@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"GoPractice/august/week1"
+	"GoPractice/august/week2"
 )
 
 func init() {
@@ -20,6 +21,9 @@ func main() {
 	week1.Channel()
 	fmt.Println("\nResult of Two Task Concurrent: ")
 	week1.TaskConcurrent()
+	fmt.Println("\nResult of Open, Read and Write: ")
+	week2.OpenReadWrite() // Call the OpenReadWrite function from week2 package
+
 
 	//fmt.Println("\nFor Week 2 of August")
 	// Add calls for week2 functions here when implemented
