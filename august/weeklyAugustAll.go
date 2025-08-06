@@ -23,6 +23,8 @@ func main() {
 	week1.TaskConcurrent()
 	fmt.Println("\nResult of Open, Read and Write: ")
 	week2.OpenReadWrite() // Call the OpenReadWrite function from week2 package
+	fmt.Println("\nResult of Append Data to File: ")
+	week2.AppendFileText() // Call the AppendFileText function from week2 package
 
 
 	//fmt.Println("\nFor Week 2 of August")
