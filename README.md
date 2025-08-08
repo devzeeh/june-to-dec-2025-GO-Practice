@@ -144,7 +144,7 @@ Build a simple concurrent downloader that simulates fetching multiple URLs.
 - [x] Day 2: Write data to files
 - [x] Day 3: Practice appending data to existing files
 - [x] Day 4: Handle file errors
-- [ ] Day 5: Write a program to copy a file
+- [x] Day 5: Write a program to copy a file
 
 ### Week 2 Side Project:
 
