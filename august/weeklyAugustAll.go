@@ -25,7 +25,8 @@ func main() {
 	week2.OpenReadWrite() // Call the OpenReadWrite function from week2 package
 	fmt.Println("\nResult of Append Data to File: ")
 	week2.AppendFileText() // Call the AppendFileText function from week2 package
-
+	fmt.Println("\nResult of Copy File: ")
+	week2.CopyFile() // Call the CopyFile function from week2 package
 
 	//fmt.Println("\nFor Week 2 of August")
 	// Add calls for week2 functions here when implemented
