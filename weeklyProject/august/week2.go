@@ -1,5 +1,5 @@
 package august //
 
-func main() {
+func AugustWeek2Result() {
 	// no Code for now
 }
