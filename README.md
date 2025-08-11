@@ -154,8 +154,8 @@ Create a program that reads a list of names from a file and prints them sorted.
 
 ### Week 3: Beginner Web Server
 
-- [ ] Day 1: Learn basics of `net/http` package
-- [ ] Day 2: Write a simple web server that returns "Hello, Go Web!"
+- [x] Day 1: Learn basics of `net/http` package
+- [x] Day 2: Write a simple web server that returns "Hello, Go Web!"
 - [ ] Day 3: Handle different URL paths
 - [ ] Day 4: Serve static HTML content
 - [ ] Day 5: Add query parameters and parse them
