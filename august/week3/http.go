@@ -4,10 +4,12 @@ import (
 	"net/http"
 )
 
+// Simple HTTP server
 type server struct {
 	addr string
 }
 
+// ServeHTTP handles HTTP requests
 func (s *server) ServeHTTP(W http.ResponseWriter, R *http.Request) {
 	switch R.Method {
 	case http.MethodGet:
@@ -25,6 +27,7 @@ func (s *server) ServeHTTP(W http.ResponseWriter, R *http.Request) {
 	}
 }
 
+// NetHttp starts the HTTP server
 func NetHttp() {
 	s := &server{addr: ":8080"}
 	err := http.ListenAndServe(s.addr, s)

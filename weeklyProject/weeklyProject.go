@@ -34,5 +34,5 @@ func main() {
 	fmt.Println("Result for August Week 1:")
 	august.AugustWeek1Result()
 	august.AugustWeek2Result()
-
+	august.GuestbookApp()
 }
